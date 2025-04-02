@@ -1,0 +1,25 @@
+
+
+.numbers{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 30px;
+    padding: 10px;
+    
+    
+}
+
+.numbers button{
+
+    background-color: rgb(13, 13, 56);
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+
+.numbers .opt{
+    color: yellow;
+    
+}
