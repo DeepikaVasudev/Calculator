@@ -23,3 +23,29 @@
     color: yellow;
     
 }
+
+@media  (max-width: 520px) {
+    .calculator {
+        width: 90% !important; 
+        height: auto; /* Auto height */
+        padding: 15px;
+    }
+
+    .numbers {
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .numbers button {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    #result {
+        font-size: 24px;
+        height: 60px;
+        
+       
+    }
+}
+
